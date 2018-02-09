@@ -14,24 +14,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.chenxing2.motan.cmd;
+package com.github.ll.motan.cmd;
 
 import javax.annotation.Resource;
 
+import com.github.ll.motan.properties.RegistryConfigProperties;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 
-import com.github.chenxing2.motan.properties.RegistryConfigProperties;
 import com.weibo.api.motan.common.MotanConstants;
 import com.weibo.api.motan.util.MotanSwitcherUtil;
 
 /**
  * MotanCommandLineRunner
  * 
- * @author 	alanwei
- * @since 	2016-09-11
+ * @author 	github
+ * @since 	2018-02-09
  */
 @Configuration
 @Order(Ordered.LOWEST_PRECEDENCE)

@@ -14,19 +14,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.chenxing2.motan;
+package com.github.ll.motan;
 
+import com.github.ll.motan.properties.BasicServiceConfigProperties;
+import com.github.ll.motan.properties.ProtocolConfigProperties;
+import com.github.ll.motan.properties.RegistryConfigProperties;
+import com.github.ll.motan.support.BasicServiceConfigCondition;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.util.StringUtils;
 
-import com.github.chenxing2.motan.properties.BasicRefererConfigProperties;
-import com.github.chenxing2.motan.properties.BasicServiceConfigProperties;
-import com.github.chenxing2.motan.properties.ProtocolConfigProperties;
-import com.github.chenxing2.motan.properties.RegistryConfigProperties;
-import com.github.chenxing2.motan.support.BasicServiceConfigCondition;
+import com.github.ll.motan.properties.BasicRefererConfigProperties;
 import com.weibo.api.motan.config.ExtConfig;
 import com.weibo.api.motan.config.springsupport.AnnotationBean;
 import com.weibo.api.motan.config.springsupport.BasicRefererConfigBean;
@@ -37,8 +37,8 @@ import com.weibo.api.motan.config.springsupport.RegistryConfigBean;
 /**
  * Motan Config
  * 
- * @author 	alanwei
- * @since 	2016-09-11
+ * @author 	github
+ * @since 	2018-02-09
  */
 @ComponentScan
 public class MotanConfig {

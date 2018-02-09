@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.chenxing2.motan.properties;
+package com.github.ll.motan.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
@@ -22,8 +22,8 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Protocol Config
  * 
- * @author 	alanwei
- * @since 	2016-09-11
+ * @author 	github
+ * @since 	2018-02-09
  */
 @Configuration
 @ConfigurationProperties(prefix = "motan.protocol")
