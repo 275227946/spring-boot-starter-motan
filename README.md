@@ -1,11 +1,9 @@
 # spring-boot-starter-motan
 
-少一些属性，后续补全
+更新MOTAN版本到1.1.0，更新PARENT版本到1.5.9.RELEASE
 
-spring-boot motan 整合的项目，可通过application.properties配置。
+提醒一下，本地调试一定要关闭防火墙
 
-增加了自动调用心跳开关，注册到注册中心
+[使用demo](https://github.com/ll/spring-boot-motan-demo)
 
-[使用demo](https://github.com/chenxing2/spring-boot-motan-demo)
-
-[其他参考](http://www.jianshu.com/notebooks/6195896/latest)
+[源码来自](https://github.com/chenxing2)
