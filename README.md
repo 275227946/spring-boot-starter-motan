@@ -4,6 +4,6 @@
 
 提醒一下，本地调试一定要关闭防火墙
 
-[使用demo](https://github.com/ll/spring-boot-motan-demo)
+[使用demo](https://github.com/275227946/spring-boot-motan-demo)
 
 [源码来自](https://github.com/chenxing2)
